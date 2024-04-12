@@ -2,7 +2,10 @@
 
 Este repositorio contiene un proyecto que incluye un backend en Python, un frontend en React y una base de datos en PostgreSQL. Además, utiliza Docker Compose para gestionar los contenedores necesarios para ejecutar la aplicación. También se proporciona un archivo .sh que automatiza la instalación y el despliegue del proyecto.
 
-![Diagrama del Proyecto](https://www.architecturemaker.com/what-is-project-architecture-diagram/)
+# Ramas:
+
+- en la rama main puedes ver el proyecto con docker compose
+- en la rama no-compose puedes ver el proyecto solo con docker file y ejecutarlo con el script docker_run.sh
 
 ## Tecnologías Utilizadas
 
