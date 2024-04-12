@@ -6,7 +6,7 @@ Este repositorio contiene un proyecto que incluye un backend en Python, un front
 
 ## Tecnologías Utilizadas
 
-- Backend: Python ![Python Logo](https://www.python.org/community/logos/)
+- Backend: Python [FastAPI](https://fastapi.tiangolo.com/)
 - Frontend: React ![React Logo](https://commons.wikimedia.org/wiki/File:React-icon.svg)
 - Base de Datos: PostgreSQL ![PostgreSQL Logo](https://wiki.postgresql.org/wiki/Logo)
 - Gestión de Contenedores: Docker Compose ![Docker Compose Logo](https://www.docker.com/company/newsroom/media-resources/)
