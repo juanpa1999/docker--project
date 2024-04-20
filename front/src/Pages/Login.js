@@ -15,7 +15,7 @@ function Login() {
 
   async function handleRegister(username, password) {
     try {
-      const response = await axios.post("http://127.0.0.1:8000/auth/register", {
+      const response = await axios.post("http://138-128-240-130.cloud-xip.com:8000/auth/register", {
         headers: {
           "Content-Type": "application/json",
         },
@@ -34,7 +34,7 @@ function Login() {
 
   async function handleLogin(username, password) {
   try {
-    const response = await axios.post("http://127.0.0.1:8000/auth/login", {
+    const response = await axios.post("http://138-128-240-130.cloud-xip.com:8000/auth/login", {
       username,
       password
     }, {

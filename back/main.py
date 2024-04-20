@@ -19,6 +19,9 @@ app.include_router(api_router)
 
 origins = [
     "http://"+config('HOST_FRONT')+":3000",
+    "http://138-128-240-130.cloud-xip.com:80",
+    "http://138-128-240-130.cloud-xip.com",
+    "http://138-128-240-130.cloud-xip.com:3000",
     "https://create-react-app-site-production-def0.up.railway.app",
     "https://react-front-refoenergy-production.up.railway.app"
 ]
