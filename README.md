@@ -1,3 +1,5 @@
+# wWorking on Katamera server
+
 # Docker and Docker compose, Bash
 
 Este repositorio contiene un proyecto que incluye un backend en Python, un frontend en React y una base de datos en PostgreSQL. Además, utiliza Docker Compose para gestionar los contenedores necesarios para ejecutar la aplicación. También se proporciona un archivo .sh que automatiza la instalación y el despliegue del proyecto.
