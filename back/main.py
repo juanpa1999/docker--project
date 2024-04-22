@@ -19,6 +19,8 @@ app.include_router(api_router)
 
 origins = [
     "http://"+config('HOST_FRONT')+":3000",
+    "http://localhost",
+    "http://127.0.0.1",
     "https://create-react-app-site-production-def0.up.railway.app",
     "https://react-front-refoenergy-production.up.railway.app"
 ]
