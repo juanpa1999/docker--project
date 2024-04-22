@@ -1,5 +1,7 @@
 #!/bin/bash
-
+cd /back
+chmod 777 .env
+cd ..
 docker compose up -d
 docker compose run --rm back alembic upgrade head
 docker compose run --rm back alembic revision --autogenerate
