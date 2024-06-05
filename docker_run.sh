@@ -15,8 +15,10 @@ docker network connect dnet back_cont
 docker stop back_cont
 docker start back_cont
 
-docker exec -it back_cont alembic upgrade head
+docker exec -it back_cont alembic init alembic
 docker exec -it back_cont alembic revision --autogenerate
+docker exec -it back_cont alembic upgrade head
+
 
 cd ../front
 docker build -t front_img .
